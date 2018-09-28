@@ -3,6 +3,7 @@ from django.db import models
 from django.utils import timezone
 
 # Create your models here.
+#models are representing the creation of tables in our db by using python
 class Question(models.Model):
     question_text = models.CharField(max_length=200)
     pub_date = models.DateTimeField('date published')
